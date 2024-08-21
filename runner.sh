@@ -1,5 +1,5 @@
 export BROWSER_NAME=chrome
-TAG="@inventory-4"
+TAG="@saucedemo-test"
 
 # npm test
 npx cucumber-js ./test/features --require ./test --tags "$TAG"

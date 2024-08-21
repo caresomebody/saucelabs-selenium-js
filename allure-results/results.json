@@ -4,6 +4,1164 @@
     "elements": [
       {
         "description": "",
+        "id": "login;open-sauce-labs-&-verify-element",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Open Sauce Labs & Verify Element",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1039542666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391214042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User finds the element \"login/userNameField\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10874958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User finds the element \"login/passwordField\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13597958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User finds the element \"login/swaglabsLogo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13036458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User finds the element \"login/loginCredentials\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11229125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User finds the element \"login/passwordCredentials\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11729749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User finds the element \"login/loginBtn\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12685750
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64686791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@login-1",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-sauce-labs",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login Sauce Labs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 813173458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357046166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User fills element \"login/userNameField\" with value \"standard_user\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131789749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User fills element \"login/passwordField\" with value \"secret_sauce\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65588375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User click element \"login/loginBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7176750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User finds the element \"login/sauceLabsBackpack\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51700499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62001583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@login-2",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;logout-sauce-labs",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Logout Sauce Labs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 761812375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442594791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User fills element \"login/userNameField\" with value \"standard_user\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131924833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User fills element \"login/passwordField\" with value \"secret_sauce\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67772958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User click element \"login/loginBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7223750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User finds the element \"login/sauceLabsBackpack\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49548915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User click element \"inventory/sidebarBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15483791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User wait for 5000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002137540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "User click element \"inventory/logoutBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7541666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User wait for 5000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001127207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User finds the element \"login/userNameField\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4921958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User finds the element \"login/passwordField\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10163249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "User finds the element \"login/swaglabsLogo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11072459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "User finds the element \"login/loginCredentials\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10453125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User finds the element \"login/passwordCredentials\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11129249
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57249041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@login-3",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;error-message-in-login",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Error Message in Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 809312458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open url \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355751791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "User fills element \"login/userNameField\" with value \"\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53557124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User fills element \"login/passwordField\" with value \"\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43916916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User click element \"login/loginBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7634707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "User finds the element \"login/errorMessageLogin\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37848915
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58153416
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@login-4",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      },
+      {
+        "name": "@saucedemo-test",
+        "line": 1
+      }
+    ],
+    "uri": "test/features/1_login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "inventory;check-sidebar",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Check Sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 824611042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542248666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click element \"inventory/sidebarBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49695874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User wait for 5000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000592958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User finds the element \"inventory/allItemBtn\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10084041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User finds the element \"inventory/aboutBtn\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11528207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User finds the element \"inventory/logoutBtn\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11825666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User finds the element \"inventory/resetBtn\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10304458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User click element \"inventory/closeBtn\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10537207
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70092540
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@inventory-1",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;verify-all-element-in-inventory-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify All Element in Inventory page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 833700333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550588958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User wait for 5000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001534542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User finds the element \"inventory/appLogo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11091457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User finds the element \"inventory/cartIcon\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11680582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User finds the element \"inventory/titleProductPage\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11380667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User finds the element \"inventory/sortProduct\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9905792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User finds the element \"inventory/twitterIcon\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10702209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User finds the element \"inventory/linkedinIcon\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11164790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User finds the element \"inventory/footerCopy\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10374666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User finds the element \"inventory/inventoryItem1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10215832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User finds the element \"inventory/inventoryItem1Image\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10594708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User finds the element \"inventory/inventoryItem1DescCard\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10479583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User finds the element \"inventory/inventoryItem1Desc\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10852249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User finds the element \"inventory/inventoryItem1Price\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10692209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User finds the element \"inventory/inventoryItem1Name\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12137750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User finds the element \"inventory/inventoryItem1BtnAddToCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10284333
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58651249
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@inventory-2",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;add-&-remove-product-to-cart",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Add & Remove Product to Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 820030624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561887999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47450457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25529875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User finds the element \"inventory/removeItem1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14892167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User click element \"inventory/inventoryItem2BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12896832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User finds the element \"inventory/removeItem2\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23979083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User finds the element \"inventory/itemCount2\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10591832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User click element \"inventory/removeItem2\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8532833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19180790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "User click element \"inventory/removeItem1\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7507291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "User finds the element \"inventory/itemCount1\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19757292
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55325959
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@inventory-3",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
         "id": "inventory;product-detail",
         "keyword": "Scenario",
         "line": 49,
@@ -14,7 +1172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1309761541
+              "duration": 756823249
             }
           },
           {
@@ -23,11 +1181,11 @@
             "line": 5,
             "name": "User login to Saucedemo",
             "match": {
-              "location": "test/stepDef/sharestep.js:57"
+              "location": "test/stepDef/sharestep.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 609985291
+              "duration": 524887500
             }
           },
           {
@@ -36,11 +1194,11 @@
             "line": 50,
             "name": "User click element \"inventory/inventoryItem1Name\"",
             "match": {
-              "location": "test/stepDef/sharestep.js:47"
+              "location": "test/stepDef/sharestep.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 58140832
+              "duration": 54138291
             }
           },
           {
@@ -49,11 +1207,11 @@
             "line": 51,
             "name": "User finds the element \"inventory/btnBackToProduct\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 42904125
+              "duration": 47272124
             }
           },
           {
@@ -62,11 +1220,11 @@
             "line": 52,
             "name": "User finds the element \"inventory/itemNameDetail\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 12073041
+              "duration": 11491333
             }
           },
           {
@@ -75,11 +1233,11 @@
             "line": 53,
             "name": "User finds the element \"inventory/itemDescDetail\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 11110583
+              "duration": 12100042
             }
           },
           {
@@ -88,11 +1246,11 @@
             "line": 54,
             "name": "User finds the element \"inventory/itemPriceDetail\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 9523125
+              "duration": 10649917
             }
           },
           {
@@ -101,11 +1259,11 @@
             "line": 55,
             "name": "User finds the element \"inventory/itemImageDetail\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 9439041
+              "duration": 10270667
             }
           },
           {
@@ -114,11 +1272,11 @@
             "line": 56,
             "name": "User click element \"inventory/btnAddToCart\"",
             "match": {
-              "location": "test/stepDef/sharestep.js:47"
+              "location": "test/stepDef/sharestep.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 9584332
+              "duration": 10115499
             }
           },
           {
@@ -127,11 +1285,11 @@
             "line": 57,
             "name": "User finds the element \"inventory/itemCount1\" displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:18"
+              "location": "test/stepDef/sharestep.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 24388416
+              "duration": 26865874
             }
           },
           {
@@ -140,11 +1298,11 @@
             "line": 58,
             "name": "User click element \"inventory/btnRemove\"",
             "match": {
-              "location": "test/stepDef/sharestep.js:47"
+              "location": "test/stepDef/sharestep.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 9467458
+              "duration": 13311915
             }
           },
           {
@@ -153,11 +1311,11 @@
             "line": 59,
             "name": "User finds the element \"inventory/itemCount1\" is not displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:26"
+              "location": "test/stepDef/sharestep.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 19501416
+              "duration": 20507750
             }
           },
           {
@@ -166,11 +1324,11 @@
             "line": 60,
             "name": "User click element \"inventory/btnBackToProduct\"",
             "match": {
-              "location": "test/stepDef/sharestep.js:47"
+              "location": "test/stepDef/sharestep.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 4085957
+              "duration": 4439666
             }
           },
           {
@@ -179,11 +1337,11 @@
             "line": 61,
             "name": "User finds the element \"inventory/btnBackToProduct\" is not displayed",
             "match": {
-              "location": "test/stepDef/sharestep.js:26"
+              "location": "test/stepDef/sharestep.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 27643625
+              "duration": 31853583
             }
           },
           {
@@ -191,7 +1349,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54982875
+              "duration": 55251625
             }
           }
         ],
@@ -201,8 +1359,300 @@
             "line": 1
           },
           {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
             "name": "@inventory-4",
             "line": 48
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;sort-product-by-name",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Sort Product By Name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 803818708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538076708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56499833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User click element \"inventory/optionZA\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6602333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "User wait for 3000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001290374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Test.allTheThings() T-Shirt (Red)\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11272625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "User click element \"inventory/optionAZ\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6709792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User wait for 3000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001272791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11735874
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54794540
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@inventory-5",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;sort-product-by-price",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Sort Product By Price",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 825655041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542727499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56169624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "User click element \"inventory/optionLowHigh\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7460500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "User wait for 3000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000996125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Sauce Labs Onesie\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13006417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "User click element \"inventory/optionHighLow\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6548084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User wait for 3000",
+            "match": {
+              "location": "test/stepDef/sharestep.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000299792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "User compare value in element \"inventory/inventoryItem1Name\" match with text \"Sauce Labs Fleece Jacket\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11762374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52958916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@inventory-6",
+            "line": 73
           }
         ],
         "type": "scenario"
@@ -216,8 +1666,1507 @@
       {
         "name": "@inventory",
         "line": 1
+      },
+      {
+        "name": "@saucedemo-test",
+        "line": 1
       }
     ],
     "uri": "test/features/2_inventory.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart;process-product-to-checkout-until-finish",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Process Product to Checkout until Finish",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 803056957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 529055499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47830000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26340791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12525041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31682624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User finds the element \"cart/qtyLabel\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11318832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User finds the element \"cart/descLabel\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10552374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User finds the element \"cart/itemPrice\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10555625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User finds the element \"cart/itemDesc\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10277125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User finds the element \"cart/itemName\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10282792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User finds the element \"cart/btnContinueShopping\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10432916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User finds the element \"inventory/removeItem1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10299833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User click element \"cart/btnCheckout\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10581041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User finds the element \"cart/titleCheckoutInfo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27809041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User finds the element \"cart/inputFirstName\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10859250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User finds the element \"cart/inputLasttName\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10399582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User finds the element \"cart/inputPostCode\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10339500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User finds the element \"cart/btnCancel\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9961000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User finds the element \"cart/btnContinue\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10885332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User fills element \"cart/inputFirstName\" with value \"Test\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48730125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User fills element \"cart/inputLasttName\" with value \"Automation\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48142249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User fills element \"cart/inputPostCode\" with value \"888888\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41784792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User click element \"cart/btnContinue\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8857667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User finds the element \"cart/titleCheckoutOverview\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43197749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User finds the element \"cart/itemPrice\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8266917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User finds the element \"cart/itemDesc\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7931792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User finds the element \"cart/itemName\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7624167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "User finds the element \"cart/labelPayment\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10034250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "User finds the element \"cart/valuePayment\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10265625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User finds the element \"cart/labelShipping\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10200082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User finds the element \"cart/valueShipping\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11871375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User finds the element \"cart/valueSubtotal\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11067541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User finds the element \"cart/valueTax\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10426959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User finds the element \"cart/valueTotal\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10797249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User click element \"cart/btnFinish\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10177582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User finds the element \"cart/titleCheckoutComplete\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28388124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "User finds the element \"cart/iconSuccess\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11158541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "User finds the element \"cart/textComplete\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10370667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "User finds the element \"cart/subtitleComplete\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10615334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "User finds the element \"cart/btnBackHome\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10076000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User click element \"cart/btnBackHome\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8671667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "User finds the element \"inventory/titleProductPage\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30068375
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57326709
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-1",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart;user-remove-product-from-cart",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "User Remove Product from Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 808938374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 553474750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46495041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25585458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15224249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30048875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User finds the element \"cart/qtyLabel\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12035625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User finds the element \"cart/descLabel\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10525625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "User finds the element \"cart/itemPrice\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10705165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "User finds the element \"cart/itemDesc\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10446250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "User finds the element \"cart/itemName\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10313291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "User finds the element \"inventory/removeItem1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10418458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "User click element \"inventory/removeItem1\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7864832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "User finds the element \"cart/itemName\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21600874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "User finds the element \"cart/itemPrice\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4323082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User finds the element \"cart/itemDesc\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4511250
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54868375
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-2",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart;user-back-to-home-from-cart",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "User back to home from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 814058208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566968999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46217249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25812958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12006750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29335083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "User click element \"cart/btnContinueShopping\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11529457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "User finds the element \"inventory/titleProductPage\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38631042
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59540457
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-3",
+            "line": 68
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart;user-back-to-cart-from-checkout-information",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "User back to cart from checkout information",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 822428791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519486208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52865292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32950875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13214082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30940249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "User click element \"cart/btnCheckout\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11015375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "User finds the element \"cart/titleCheckoutInfo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30784790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "User click element \"cart/btnCancel\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9796167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25321624
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55754709
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-4",
+            "line": 77
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart;user-got-error-message-at-checkout-information",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "User got error message at Checkout Information",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 818649250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531523874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 90,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48254625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27941582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13832875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30029333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "User click element \"cart/btnCheckout\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10959583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "User finds the element \"cart/titleCheckoutInfo\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27535292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "User click element \"cart/btnContinue\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10659417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "User finds the element \"cart/errorCheckout\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32643416
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55434583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-5",
+            "line": 88
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart;user-back-to-checkout-information-from-checkout-overview",
+        "keyword": "Scenario",
+        "line": 100,
+        "name": "User back to checkout information from checkout overview",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 800684957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535660792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 101,
+            "name": "User click element \"inventory/inventoryItem1BtnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44485207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26980917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "User click element \"inventory/cartIcon\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17735332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "User finds the element \"cart/titleYourCart\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33609874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "User click element \"cart/btnCheckout\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11182791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "User fills element \"cart/inputFirstName\" with value \"Test\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70074833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "User fills element \"cart/inputLasttName\" with value \"Automation\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49381041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "User fills element \"cart/inputPostCode\" with value \"888888\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46961290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "User click element \"cart/btnContinue\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6825209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "User finds the element \"cart/titleCheckoutOverview\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39025667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 111,
+            "name": "User click element \"cart/btnCancel\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9493875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "User finds the element \"inventory/titleProductPage\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41790499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60131290
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          },
+          {
+            "name": "@saucedemo-test",
+            "line": 1
+          },
+          {
+            "name": "@cart-6",
+            "line": 99
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cart",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Cart",
+    "tags": [
+      {
+        "name": "@cart",
+        "line": 1
+      },
+      {
+        "name": "@saucedemo-test",
+        "line": 1
+      }
+    ],
+    "uri": "test/features/3_cart.feature"
   }
 ]

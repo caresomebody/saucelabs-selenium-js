@@ -45,4 +45,18 @@ async function fillElement(driver, locator, value) {
     }
   }
 
-module.exports = { findElementByXPath, isElementNotVisible, fillElement, clickElementByXPath };
+  async function getAndCompareText(driver, locator, expectedText) {
+    try {
+      const element = await findElementByXPath(driver, locator);
+      const actualText = await element.getText();
+      if (actualText.trim() !== expectedText.trim()) {
+        throw new Error(`Expected text '${expectedText}' but got '${actualText}'`);
+      }
+      console.log(`Text '${actualText}' matches the expected text '${expectedText}'`);
+    } catch (error) {
+      console.error('Error getting and comparing text:', error);
+      throw error;
+    }
+  }
+
+module.exports = { findElementByXPath, isElementNotVisible, fillElement, clickElementByXPath, getAndCompareText };

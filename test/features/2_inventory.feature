@@ -1,4 +1,4 @@
-@inventory
+@inventory @saucedemo-test
 Feature: Inventory
 
   Background:
@@ -19,7 +19,7 @@ Feature: Inventory
     When User wait for 5000
     Then User finds the element "inventory/appLogo" displayed
     And User finds the element "inventory/cartIcon" displayed
-    And User finds the element "inventory/titlePage" displayed
+    And User finds the element "inventory/titleProductPage" displayed
     And User finds the element "inventory/sortProduct" displayed
     And User finds the element "inventory/twitterIcon" displayed
     And User finds the element "inventory/linkedinIcon" displayed
@@ -59,3 +59,23 @@ Feature: Inventory
     And User finds the element "inventory/itemCount1" is not displayed
     And User click element "inventory/btnBackToProduct"
     And User finds the element "inventory/btnBackToProduct" is not displayed
+
+  @inventory-5
+  Scenario: Sort Product By Name
+    And User compare value in element "inventory/inventoryItem1Name" match with text "Sauce Labs Backpack"
+    When User click element "inventory/optionZA"
+    And User wait for 3000
+    And User compare value in element "inventory/inventoryItem1Name" match with text "Test.allTheThings() T-Shirt (Red)"
+    And User click element "inventory/optionAZ"
+    And User wait for 3000
+    Then User compare value in element "inventory/inventoryItem1Name" match with text "Sauce Labs Backpack"
+
+  @inventory-6
+  Scenario: Sort Product By Price
+    And User compare value in element "inventory/inventoryItem1Name" match with text "Sauce Labs Backpack"
+    When User click element "inventory/optionLowHigh"
+    And User wait for 3000
+    And User compare value in element "inventory/inventoryItem1Name" match with text "Sauce Labs Onesie"
+    And User click element "inventory/optionHighLow"
+    And User wait for 3000
+    Then User compare value in element "inventory/inventoryItem1Name" match with text "Sauce Labs Fleece Jacket"

@@ -1,4 +1,4 @@
-@login
+@login @saucedemo-test
 Feature: Login
 
   Background:
@@ -35,3 +35,10 @@ Feature: Login
     And User finds the element "login/swaglabsLogo" displayed
     And User finds the element "login/loginCredentials" displayed
     And User finds the element "login/passwordCredentials" displayed
+
+  @login-4
+  Scenario: Error Message in Login
+    When User fills element "login/userNameField" with value ""
+    And User fills element "login/passwordField" with value ""
+    And User click element "login/loginBtn"
+    Then User finds the element "login/errorMessageLogin" displayed

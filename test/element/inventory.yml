@@ -9,7 +9,7 @@ closeBtn: //button[@id='react-burger-cross-btn']
 ## page element
 appLogo: //div[@class='app_logo']
 cartIcon: //div[@id='shopping_cart_container']/a[1]
-titlePage: //span[@data-test='title']
+titleProductPage: //span[.='Products']
 sortProduct: //select[@class='product_sort_container']
 twitterIcon: //a[.='Twitter']
 facebookIcon: //a[.='Facebook']
@@ -40,3 +40,12 @@ itemPriceDetail: //div[@data-test='inventory-item-price']
 itemImageDetail: //img[@data-test='item-sauce-labs-backpack-img']
 btnAddToCart: //button[@id='add-to-cart']
 btnRemove: //button[@id='remove']
+
+## sort
+optionAZ: //option[.='Name (A to Z)']
+optionZA: //option[.='Name (Z to A)']
+optionLowHigh: //option[.='Price (low to high)']
+optionHighLow: //option[.='Price (high to low)']
+
+## saucelabs web
+btnTestItAll: //button[.='Try it free']

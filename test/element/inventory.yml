@@ -1,0 +1,42 @@
+## sidebar
+sidebarBtn: //button[@id='react-burger-menu-btn']
+allItemBtn: //a[@id='inventory_sidebar_link']
+aboutBtn: //a[@id='about_sidebar_link']
+logoutBtn: //a[@id='logout_sidebar_link']
+resetBtn: //a[@id='reset_sidebar_link']
+closeBtn: //button[@id='react-burger-cross-btn']
+
+## page element
+appLogo: //div[@class='app_logo']
+cartIcon: //div[@id='shopping_cart_container']/a[1]
+titlePage: //span[@data-test='title']
+sortProduct: //select[@class='product_sort_container']
+twitterIcon: //a[.='Twitter']
+facebookIcon: //a[.='Facebook']
+linkedinIcon: //a[.='LinkedIn']
+footerCopy: //div[@class='footer_copy']
+
+## product
+inventoryItem1: //div[@class='inventory_item'][1]
+inventoryItem1Image: //div[@class='inventory_item'][1]//div[@class='inventory_item_img']
+inventoryItem1DescCard: //div[@class='inventory_item'][1]//div[@class='inventory_item_description']
+inventoryItem1Desc: //div[@class='inventory_item'][1]//div[@class='inventory_item_desc']
+inventoryItem1Price: //div[@class='inventory_item'][1]//div[@class='inventory_item_price']
+inventoryItem1Name: //div[@class='inventory_item'][1]//div[@class='inventory_item_name ']
+inventoryItem1BtnAddToCart: //button[@id='add-to-cart-sauce-labs-backpack']
+inventoryItem2BtnAddToCart: //button[@id='add-to-cart-sauce-labs-bike-light']
+removeItem1: //button[@id='remove-sauce-labs-backpack']
+removeItem2: //button[@id='remove-sauce-labs-bike-light']
+
+## cart
+itemCount1: //span[@class='shopping_cart_badge' and .='1']
+itemCount2: //span[@class='shopping_cart_badge' and .='2']
+
+## inventory detail
+btnBackToProduct: //button[@id='back-to-products']
+itemNameDetail: //div[@data-test='inventory-item-name']
+itemDescDetail: //div[@data-test='inventory-item-desc']
+itemPriceDetail: //div[@data-test='inventory-item-price']
+itemImageDetail: //img[@data-test='item-sauce-labs-backpack-img']
+btnAddToCart: //button[@id='add-to-cart']
+btnRemove: //button[@id='remove']

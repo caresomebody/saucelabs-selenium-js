@@ -1,0 +1,223 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "inventory;product-detail",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Product Detail",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1309761541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User login to Saucedemo",
+            "match": {
+              "location": "test/stepDef/sharestep.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609985291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "User click element \"inventory/inventoryItem1Name\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58140832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "User finds the element \"inventory/btnBackToProduct\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42904125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "User finds the element \"inventory/itemNameDetail\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12073041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "User finds the element \"inventory/itemDescDetail\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11110583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User finds the element \"inventory/itemPriceDetail\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9523125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "User finds the element \"inventory/itemImageDetail\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9439041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User click element \"inventory/btnAddToCart\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9584332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User finds the element \"inventory/itemCount1\" displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24388416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User click element \"inventory/btnRemove\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9467458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "User finds the element \"inventory/itemCount1\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19501416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "User click element \"inventory/btnBackToProduct\"",
+            "match": {
+              "location": "test/stepDef/sharestep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4085957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "User finds the element \"inventory/btnBackToProduct\" is not displayed",
+            "match": {
+              "location": "test/stepDef/sharestep.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27643625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54982875
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          },
+          {
+            "name": "@inventory-4",
+            "line": 48
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "inventory",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Inventory",
+    "tags": [
+      {
+        "name": "@inventory",
+        "line": 1
+      }
+    ],
+    "uri": "test/features/2_inventory.feature"
+  }
+]

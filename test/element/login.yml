@@ -1,0 +1,10 @@
+userNameField: //input[@id='user-name']
+passwordField: //input[@id='password']
+swaglabsLogo: //div[@class='login_logo']
+loginBtn: //input[@id='login-button']
+firstUserName: //div[@id='login_credentials']//br[1]/following-sibling::text()[1]
+passwordText: //div[@data-test='login-password']//h4/following-sibling::text()
+googleField: //input[@id='google']
+loginCredentials: //div[@id='login_credentials']
+passwordCredentials: //div[@class='login_password']
+sauceLabsBackpack: //div[.='Sauce Labs Backpack']

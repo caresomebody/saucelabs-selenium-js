@@ -1,0 +1,22 @@
+{
+  "name": "saucelabs-selenium",
+  "version": "1.0.0",
+  "description": "Saucelabs Selenium JS Automation",
+  "author": "Ali Naufal Ammarullah",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js ./test/features --require ./test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "chromedriver": "^127.0.3",
+    "cucumber-html-reporter": "^7.1.1",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "dependencies": {
+    "allure-cucumberjs": "^3.0.0-beta.10",
+    "js-yaml": "^4.1.0"
+  }
+}

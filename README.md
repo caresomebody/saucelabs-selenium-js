@@ -55,12 +55,16 @@ The report is generated automatically when you run the automation using the foll
        ```
       sh runner.sh
       ```
-The automation report used in this process is the Cucumber HTML Reporter. Below is an example of the report output:
+The automation report used in this process is the Cucumber HTML Reporter. You can also find the report in the folder **report/cucumber-report.html**. Below is an example of the report output:
+
+
 ![image](https://github.com/user-attachments/assets/d6569052-67a7-446b-a922-03f132ff6c8f)
 ![image](https://github.com/user-attachments/assets/01581a1b-6561-42bb-adf2-0af9352015f1)
 ![image](https://github.com/user-attachments/assets/d8359c35-66fd-49c7-9bba-3acfca526ab1)
 
 While running the automation, you can also see the log in command prompt
+
+
 ![image](https://github.com/user-attachments/assets/437e7823-118c-437f-a1c6-ec7527998a7d)
 
 ## Automation Process
